@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Fondo\ cajero.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+
+
+#form{
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: red;
+    justify-items: center;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+}
+
+#Usuariohtml{
+    margin: 3px;
+    padding:5px;
+    border-radius: 10px;
+    border: 3px;
+}
+
+#Passwordhtml{
+    margin: 3px;
+    padding:5px;
+    border-radius: 10px;
+    border: 3px;
+}
+
+#button{
+    border-radius: 10px;
+    margin: 3px;
+    padding: 5px;
+}

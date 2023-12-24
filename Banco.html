@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Cajero.css">
+</head>
+<body>
+    <div class="teclado">
+        <input type="text" id="display"> 
+     
+        <div class="botones">
+         
+            <button id="fuente" onclick="clearDisplay()">C</button>
+        <div class="linea">
+            <button id="fuente" onclick="appendToDisplay('7')">7</button>
+            <button id="fuente" onclick="appendToDisplay('8')">8</button>
+            <button id="fuente" onclick="appendToDisplay('9')">9</button>
+            <button id="cancelar" onclick="clearDisplay()">CANCELAR</button>
+        </div>
+        <div class="linea">
+            <button id="fuente" onclick="appendToDisplay('4')">4</button>
+            <button id="fuente" onclick="appendToDisplay('5')">5</button>
+            <button id="fuente" onclick="appendToDisplay('6')">6</button>
+            <button id="corregir" onclick="clearDisplay()">CORREGIR</button>
+        </div>
+        <div class="linea">
+            <button id="fuente" onclick="appendToDisplay('1')">1</button>
+            <button id="fuente" onclick="appendToDisplay('2')">2</button>
+            <button id="fuente" onclick="appendToDisplay('3')">3</button>
+     
+        </div>
+        <div class="linea">
+            <button id="fuente" onclick="appendToDisplay('*')">*</button>
+            <button id="fuente" onclick="appendToDisplay('0')">0</button>
+            <button id="fuente" onclick="calculate()">.</button>
+            <button id="confirmar" onclick="calculate()">CONFIRMAR</button>
+        </div>
+        </div>
+        </div>
+     
+         <div class="saldo">
+             <a>Saldo actual:</a>
+             <input type="text" id="nuevo">
+             <a>Saldo total</a>
+             <input type="text" id="nuevosaldo">
+     
+         </div>
+         <script src="Banco.js"></script>
+         <script src="Main.JS"></script>
+   
+</body>
+</html>

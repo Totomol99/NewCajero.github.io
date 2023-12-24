@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: lightsalmon;
+    justify-content: center;
+}
+.teclado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+}
+
+button{
+    width: 40px;
+    height:  40px;
+}
